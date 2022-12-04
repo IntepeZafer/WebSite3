@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prompt&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"/>
+    <link rel="stylesheet" href="../node_modules/owl.carousel/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="">
+    <title>New Project</title>
+</head>
+<body>
+    <!--header-->
+    <header id="header__inner">
+        <div class="container">
+            <nav class="main-nav">
+                <img src="img/logo.png" alt="logo" class="main-nav__logo">
+                <ul class="main-nav__items">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html" class="active">About</a></li>
+                    <li><a href="project.html">Project</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header> 
+    <!--Abouth-->
+    <section id="about-a" class="text-center py-2">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="border-bottom"></div>
+            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse deleniti assumenda rem suscipit modi recusandae consequuntur laboriosam eaque, nobis cupiditate?</p>
+            <div class="info">
+                <img src="img/about.jpeg" alt="" class="info__image">
+                <div class="info__bio">
+                    <h3>Lorem ipsum dolor sit amet.</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui laudantium placeat debitis eos autem. Autem suscipit ullam voluptatem dicta, voluptates deleniti praesentium asperiores beatae eos molestias sed quam ex amet?</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Skills-->
+    <section id="about-b" class="bg-dark py-2">
+        <div class="container">
+            <h3 class="section-title">What I Know...</h3>
+            <div class="border-bottom"></div>
+            <div class="progress-bars">
+                <h4>Web Development</h4>
+                <div class="progress">
+                    <div class="skill_a" style="width: 100%;"></div>
+                </div>
+                <h4>Mobile App Development</h4>
+                <div class="progress">
+                    <div class="skill_b" style="width: 80%;"></div>
+                </div>
+                <h4>Data Science</h4>
+                <div class="progress">
+                    <div class="skill_c" style="width: 70%;"></div>
+                </div>
+                <h4>Machinie Learning</h4>
+                <div class="progress">
+                    <div class="skill_d" style="width: 60%;"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--referance-->
+    <section id="about-c" class="bg-light py-2">
+        <div class="container">
+            <div class="about-logos">
+                <img src="img/joomla.png" alt="">
+                <img src="img/wix.png" alt="">
+                <img src="img/woocommerce.png" alt="">
+                <img src="img/wordpress.png" alt="">
+            </div>
+        </div>
+    </section>
+    <!--info-->
+    <section id="about-d" class="py-2">
+        <div class="container">
+            <h2 class="section-title">Referances</h2>
+            <div class="border-bottom"></div>
+            <p class="lead text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque adipisci voluptates quisquam aperiam velit excepturi!</p>
+            <div class="referances owl-carousel owl-theme">
+                <div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, et eligendi sint obcaecati perferendis cum. Maiores natus est et. Eius.</p>
+                <ul>
+                    <li><img src="img/user-1.jpeg" alt=""></li>
+                    <li>Lorem, ipsum dolor.</li>
+                </ul>
+                </div>
+                <div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, et eligendi sint obcaecati perferendis cum. Maiores natus est et. Eius.</p>
+                <ul>
+                    <li><img src="img/user-2.jpeg" alt=""></li>
+                    <li>Lorem, ipsum dolor.</li>
+                </ul>
+                </div>
+                <div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, et eligendi sint obcaecati perferendis cum. Maiores natus est et. Eius.</p>
+                <ul>
+                    <li><img src="img/user-3.jpeg" alt=""></li>
+                    <li>Lorem, ipsum dolor.</li>
+                </ul>
+                </div>
+                <div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, et eligendi sint obcaecati perferendis cum. Maiores natus est et. Eius.</p>
+                <ul>
+                    <li><img src="img/user-4.jpeg" alt=""></li>
+                    <li>Lorem, ipsum dolor.</li>
+                </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer id="main-footer">
+        <div class="footer-content container">
+            <p>Copyright &copy; 2025. All Rights Reversed.</p>
+            <div class="social">
+                <div class="fab fa-facebook"></div>
+                <div class="fab fa-instagram"></div>
+                <div class="fab fa-youtube"></div>
+                <div class="fab fa-twitter"></div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/owl.carousel.js"></script>
+    <script>
+        $('.owl-carousel').owlCarousel({
+            loop:true,
+            margin:10,
+            nav:true,
+            autoplay:true,
+            autoplayTimeout:3000,
+            responsive:{
+                0:{
+                    items:1
+                },
+                600:{
+                    items:2
+                },
+                1000:{
+                    items:3 
+                }
+            }
+})
+    </script>
+</body>
+</html>
